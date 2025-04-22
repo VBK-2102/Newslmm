@@ -1,15 +1,11 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "main.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/analyze_news",
-      "dest": "main.py"
+      "src": "requirements.txt",
+      "use": "@vercel/python",
+      "config": {
+        "buildCommand": "pip install rust && pip install -r requirements.txt"
+      }
     }
   ]
 }
