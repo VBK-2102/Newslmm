@@ -1,6 +1,7 @@
 fastapi==0.95.2
 uvicorn==0.22.0
-transformers==4.27.4
+transformers[torch]==4.17.0
 requests==2.28.2
 pydantic==1.10.7
 tensorflow
+tokenizers==0.10.3
