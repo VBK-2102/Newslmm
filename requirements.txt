@@ -3,3 +3,4 @@ uvicorn==0.22.0
 transformers==4.27.4
 requests==2.28.2
 pydantic==1.10.7
+tensorflow
