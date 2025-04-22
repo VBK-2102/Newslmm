@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/analyze_news.py",
+      "src": "main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/analyze_news",
-      "dest": "api/analyze_news.py"
+      "dest": "main.py"
     }
   ]
 }
